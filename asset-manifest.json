@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hong2story/static/css/main.073c9b0a.css",
-    "main.js": "/hong2story/static/js/main.438bcf69.js",
+    "main.js": "/hong2story/static/js/main.83cc8b45.js",
     "static/js/787.e3850ee1.chunk.js": "/hong2story/static/js/787.e3850ee1.chunk.js",
     "index.html": "/hong2story/index.html",
     "main.073c9b0a.css.map": "/hong2story/static/css/main.073c9b0a.css.map",
-    "main.438bcf69.js.map": "/hong2story/static/js/main.438bcf69.js.map",
+    "main.83cc8b45.js.map": "/hong2story/static/js/main.83cc8b45.js.map",
     "787.e3850ee1.chunk.js.map": "/hong2story/static/js/787.e3850ee1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.438bcf69.js"
+    "static/js/main.83cc8b45.js"
   ]
 }
