@@ -1,12 +1,25 @@
-import './PageTemplate.scss';
+// import { Link } from 'react-router-dom';
+// import Routers from '../../router/Routers';
 
-function PageTemplate() {
+function PageTemplate(props) {
+  console.log(props.children);
   return (
-    <div className="page-wrap">
-      <header>헤더</header>
-      <main>컨텐츠</main>
+    <>
+      <header>
+        <ul>
+          <li>
+            home
+            {/* <Link to="/">home</Link> */}
+          </li>
+          <li>
+            info
+            {/* <Link to="/info">info</Link>*/}
+          </li> 
+        </ul>
+      </header>
+      <main>{props.children}</main>
       <footer>푸터</footer>
-    </div>
+    </>
   )
 }
 
