@@ -41,20 +41,20 @@ function SidePanel() {
         <ul className="nav-list">
           <li>
             <NavLink 
-              to="/pageList"
+              to="/hong2story/pageList"
               className={({isActive}) => isActive ? 'active' : undefined}
               onClick={toggleOpenCls}
             >Page List</NavLink></li>
           <li>
             <NavLink 
-              to="/styleGuide/text"
+              to="/hong2story/styleGuide/text"
               className={({isActive}) => isActive ? 'submenu-toggle-button active open' : 'submenu-toggle-button'}
               onClick={toggleOpenCls}
             >Style Guide</NavLink>
             <ul className="submenu nav-list">
               <li>
                 <NavLink 
-                  to="/styleGuide/text"
+                  to="/hong2story/styleGuide/text"
                   className={({isActive}) => isActive ? 'active' : undefined}
                 >Text</NavLink>
               </li>
@@ -64,14 +64,14 @@ function SidePanel() {
           </li>
           <li>
             <NavLink 
-              to="/componentGuide/modal"
+              to="/hong2story/componentGuide/modal"
               className={({isActive}) => isActive ? 'submenu-toggle-button active open' : 'submenu-toggle-button'}
               onClick={toggleOpenCls}
             >Component Guide</NavLink>
             <ul className="submenu nav-list">
               <li>
                 <NavLink 
-                  to="/componentGuide/modal"
+                  to="/hong2story/componentGuide/modal"
                   className={({isActive}) => isActive ? 'submenu-toggle-button active' : undefined}
                 >Modal</NavLink>
               </li>
