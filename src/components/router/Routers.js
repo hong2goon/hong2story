@@ -13,7 +13,7 @@ function Routers() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path="/hong2story" index element={<Home />} />
+        <Route path="/" index element={<Home />} />
         <Route path="/hong2story/pageList" element={<PageList />} />
         <Route path="/hong2story/styleGuide/text" element={<Text />} />
         <Route path="/hong2story/componentGuide/modal" element={<Modal />} />
