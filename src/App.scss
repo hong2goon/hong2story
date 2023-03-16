@@ -5,10 +5,8 @@ body {
   background: $oc-gray-2;
 
   .App {
-    width: 80%;
-    height: 80%;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;;
   }
 }
