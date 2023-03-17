@@ -12,11 +12,11 @@ import NotFound from '../../pages/NotFound';
 function Routers() {
   return (
     <Routes>
-      <Route element={<Layout />}>
-        <Route path="/" index element={<Home />} />
-        <Route path="/hong2story/pageList" element={<PageList />} />
-        <Route path="/hong2story/styleGuide/text" element={<Text />} />
-        <Route path="/hong2story/componentGuide/modal" element={<Modal />} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/pageList" element={<PageList />} />
+        <Route path="/styleGuide/text" element={<Text />} />
+        <Route path="/componentGuide/modal" element={<Modal />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
